@@ -6,6 +6,20 @@ import Demo1 from './Component/Demo1'
 import Demo2 from './Component/Demo2'
 
 function App() {
+  function Callfun()
+  {
+    alert("Function Called")
+  }
+function Callfun1()
+  {
+    alert("you click on apple button")
+  }
+  
+  function Callfun2()
+  {
+    alert("you click on banana button")
+  }
+  
   function fun()
   {
     return "himanshu";
@@ -21,13 +35,18 @@ function App() {
   return (
     <>
       <div>
-        <h1>user variable with jsx </h1>
+        <button onClick={Callfun()}>OK</button>
+        <button onClick={Callfun}>OK!</button>
+        <button onClick={Callfun1}>APPLE</button>
+        <button onClick={Callfun2}>BANANA</button>
+        {/* <h1>user variable with jsx </h1>
         <h2>value of variable is {name}</h2>
         <h3>{x+y}</h3>
         <h4>use of function with jsx </h4>
         <h5>{fun()}</h5>
         <h6>example of simple function </h6>
-        <h3>{calc(54,66)}</h3>
+        <h3>{calc(54,66)}</h3> */}
+        <h1>Welcome To My New Project</h1>
       </div>
     </>
   )
