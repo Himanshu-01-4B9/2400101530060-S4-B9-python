@@ -10,7 +10,7 @@ import ShowHide from './Component/ShowHide';
 import LiveInput from './Component/LiveInput';
 import ThemeToggle from './Component/ThemeToggle';
 import LikeButton from './Component/LikeButton';
-
+import ThankYou from './Component/ThankYou';
 function App() {
    return (
     <div>
@@ -19,6 +19,7 @@ function App() {
       <LiveInput />
       <ThemeToggle />
       <LikeButton />
+      <ThankYou />
     </div>
   );
 //   let data="Demo";
